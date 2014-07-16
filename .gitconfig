@@ -1,0 +1,22 @@
+[push]
+	default = current
+[user]
+	name = Sam Holman
+	email =
+[tig]
+	commit-order = topo
+[diff]
+	tool = vimdiff
+[merge]
+	tool = vimdiff
+[difftool]
+	prompt = false
+[grep]
+	lineNumber = true
+[color]
+	ui = auto
+[color "grep"]
+    match = red bold
+    filename = magenta
+    linenumber = green
+
