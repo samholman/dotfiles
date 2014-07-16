@@ -1,20 +1,20 @@
 [push]
-	default = current
+    default = current
 [user]
-	name = Sam Holman
-	email =
+    name = Sam Holman
+    email =
 [tig]
-	commit-order = topo
+    commit-order = topo
 [diff]
-	tool = vimdiff
+    tool = vimdiff
 [merge]
-	tool = vimdiff
+    tool = vimdiff
 [difftool]
-	prompt = false
+    prompt = false
 [grep]
-	lineNumber = true
+    lineNumber = true
 [color]
-	ui = auto
+    ui = auto
 [color "grep"]
     match = red bold
     filename = magenta
