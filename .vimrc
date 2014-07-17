@@ -1,6 +1,7 @@
 syntax on
 
 au BufRead,BufNewFile *.md set filetype=markdown
+set spell spelllang=en_gb
 
 filetype plugin on
 set omnifunc=syntaxcomplete#Complete
