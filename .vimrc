@@ -1,4 +1,9 @@
+execute pathogen#infect()
+call pathogen#helptags()
+
 syntax on
+
+set laststatus=2
 
 au BufRead,BufNewFile *.md set filetype=markdown
 set spell spelllang=en_gb
