@@ -31,9 +31,11 @@ set omnifunc=syntaxcomplete#Complete
 set incsearch
 set ignorecase
 set smartcase
+map N Nzz
+map n nzz
 
-set laststatus=2
 set title
+set laststatus=2
 
 au BufRead,BufNewFile *.md set filetype=markdown
 set spell spelllang=en_gb
