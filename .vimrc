@@ -52,6 +52,13 @@ set laststatus=2
 
 " Non-default filetypes
 au BufRead,BufNewFile *.md set filetype=markdown
+" ... These for Cygwin (if having to use Windows)
+au BufRead,BufNewFile *.phtml set filetype=html
+au BufRead,BufNewFile *.php set filetype=php
+
+" Default to unix formats/line endings
+set fileformat=unix
+set fileformats=unix,dos
 
 " English (British) spelling please
 set spell spelllang=en_gb
