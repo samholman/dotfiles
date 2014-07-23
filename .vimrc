@@ -52,6 +52,8 @@ set sidescrolloff=5
 set sidescroll=1
 set backspace=indent,eol,start
 
+inoremap jj <esc>
+
 " Highlight trailing whitespace
 highlight ExtraWhitespace ctermbg=red guibg=red
 match ExtraWhitespace /\s\+$/
