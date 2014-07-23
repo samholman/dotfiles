@@ -7,6 +7,17 @@ autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 map <C-n> :NERDTreeToggle<CR>
 
+set nocompatible
+
+" Colourscheme
+set cursorline
+hi LineNr     ctermfg=255 ctermbg=236
+hi CursorLine ctermbg=234 cterm=NONE
+
+if &diff
+    colorscheme evening
+endif
+
 syntax on
 filetype plugin on
 set omnifunc=syntaxcomplete#Complete
@@ -21,10 +32,6 @@ set smartindent
 set tabstop=4
 set shiftwidth=4
 set expandtab
-
-if &diff
-    colorscheme evening
-endif
 
 " Highlight trailing whitespace
 highlight ExtraWhitespace ctermbg=red guibg=red
