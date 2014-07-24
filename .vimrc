@@ -16,14 +16,14 @@ set cursorline
 hi LineNr     ctermfg=255 ctermbg=236
 hi CursorLine ctermbg=234 cterm=NONE
 
-" Highlight the 81st column (best-practice max line length)
-if exists("+colorcolumn")
-    set colorcolumn=81
-endif
-
 " Use a different colour scheme in diff mode for ease-of-viewing
 if &diff
     colorscheme evening
+endif
+
+" Highlight the 121st column (best-practice max line length)
+if exists("+colorcolumn")
+    set colorcolumn=121
 endif
 
 " Syntax highlighting
