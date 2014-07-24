@@ -92,6 +92,11 @@ set backspace=indent,eol,start
 " Jump out of insert mode with jj (which isn't ordinarily typed)
 inoremap jj <esc>
 
+" Write current session with F2
+map <F2> :mksession! ~/.vim_session <cr>
+" Load previous session with F3
+map <F3> :source ~/.vim_session <cr>
+
 " Highlight trailing whitespace
 highlight ExtraWhitespace ctermbg=red guibg=red
 match ExtraWhitespace /\s\+$/
