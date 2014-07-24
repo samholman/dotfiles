@@ -12,11 +12,12 @@ set nocompatible
 set encoding=utf-8
 
 " Customise a few colours
-set background=dark
 set cursorline
-hi LineNr      ctermfg=255 ctermbg=236
-hi CursorLine  ctermbg=234 cterm=NONE
-hi ColorColumn ctermbg=238
+set background=dark
+colorscheme elflord
+autocmd ColorScheme * hi LineNr      ctermfg=255 ctermbg=236
+autocmd ColorScheme * hi CursorLine  ctermbg=234 cterm=NONE
+autocmd ColorScheme * hi ColorColumn ctermbg=238
 
 " Use a different colour scheme in diff mode for ease-of-viewing
 if &diff
