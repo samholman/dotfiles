@@ -14,15 +14,10 @@ set encoding=utf-8
 " Customise a few colours
 set cursorline
 set background=dark
-colorscheme elflord
+colorscheme darkside
 autocmd ColorScheme * hi LineNr      ctermfg=255 ctermbg=236
 autocmd ColorScheme * hi CursorLine  ctermbg=234 cterm=NONE
 autocmd ColorScheme * hi ColorColumn ctermbg=238
-
-" Use a different colour scheme in diff mode for ease-of-viewing
-if &diff
-    colorscheme evening
-endif
 
 " Highlight the 121st column (best-practice max line length)
 if exists("+colorcolumn")
