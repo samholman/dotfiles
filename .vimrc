@@ -110,3 +110,12 @@ function! TrimWhiteSpace()
 endfunction
 autocmd BufWritePre * :call TrimWhiteSpace()
 
+" Show syntax highlighting groups for word under cursor
+nmap <C-S-H> :call <SID>SynStack()<CR>
+function! <SID>SynStack()
+    if !exists("*synstack")
+        return
+    endif
+    echo map(synstack(line('.'), col('.')), 'synIDattr(v:val,"name")')
+endfunc
+

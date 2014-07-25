@@ -63,7 +63,7 @@ hi Statement   guibg=bg    guifg=#E8341C      ctermbg=bg  ctermfg=14
 hi Conditional guibg=bg    guifg=#F08D24      ctermbg=bg  ctermfg=12
 hi Repeat      guibg=bg    guifg=#F08D24      ctermbg=4   ctermfg=14
 hi Label       guibg=bg    guifg=#ffccff      ctermbg=bg   ctermfg=13
-hi Operator    guibg=bg    guifg=#F08D24      ctermbg=6   ctermfg=15
+hi Operator    guibg=bg    guifg=#F08D24      ctermbg=bg   ctermfg=15
 hi Keyword     guibg=bg    guifg=#F08D24      ctermbg=bg  ctermfg=10
 hi Exception   guibg=bg    guifg=#E8341C      ctermbg=bg  ctermfg=10
 
@@ -81,7 +81,7 @@ hi Typedef    guibg=bg   guifg=#1CC3E8    ctermbg=bg  ctermfg=10
 hi Special    guibg=bg   guifg=#bbddff      ctermbg=1   ctermfg=15
 hi SpecialChar    guibg=bg   guifg=#bbddff      ctermbg=1   ctermfg=15
 hi Tag        guibg=bg   guifg=#bbddff      ctermbg=1   ctermfg=15
-hi Delimiter      guibg=bg   guifg=fg       ctermbg=1   ctermfg=fg
+hi Delimiter      guibg=bg   guifg=fg       ctermbg=bg   ctermfg=fg
 hi SpecialComment guibg=#334455  guifg=#696b6e    ctermbg=1   ctermfg=15
 hi Debug      guibg=bg   guifg=#ff9999  gui=none    ctermbg=8   ctermfg=12
 
@@ -97,6 +97,8 @@ hi link htmlH3 htmlH2
 hi link htmlH4 htmlH3
 hi link htmlH5 htmlH4
 hi link htmlH6 htmlH5
+
+hi phpRegion ctermbg=bg  ctermfg=70
 
 " And finally.
 
