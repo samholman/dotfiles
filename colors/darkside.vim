@@ -47,7 +47,7 @@ hi DiffText    guibg=#884444  guifg=fg     ctermbg=4 ctermfg=fg
 
 " Colors for Syntax Highlighting.
 
-hi Comment  guibg=bg  guifg=#494B4D  gui=none    ctermbg=8   ctermfg=7
+hi Comment  guibg=bg  guifg=#494B4D  gui=none    ctermbg=bg   ctermfg=8
 
 hi Constant    guibg=bg    guifg=white        ctermbg=8   ctermfg=15
 hi String      guibg=bg    guifg=#F2D42C    ctermbg=bg  ctermfg=14
@@ -99,6 +99,13 @@ hi link htmlH5 htmlH4
 hi link htmlH6 htmlH5
 
 hi phpRegion ctermbg=bg  ctermfg=70
+hi phpConditional ctermbg=bg  ctermfg=172
+hi phpVarSelector ctermbg=bg  ctermfg=7
+hi phpSpecialFunction ctermbg=bg  ctermfg=56
+hi link phpIdentifier phpVarSelector
+hi link phpMethodsVar phpIdentifier
+hi link phpParent phpIdentifier
+hi link phpMemberSelector phpConditional
 
 " And finally.
 
