@@ -13,3 +13,6 @@
 [submodule "bundle/vim-wombat256i"]
 	path = bundle/vim-wombat256i
 	url = https://github.com/dsolstad/vim-wombat256i.git
+[submodule "bundle/vim-darkmate"]
+	path = bundle/vim-darkmate
+	url = https://github.com/yearofmoo/Vim-Darkmate.git
