@@ -14,7 +14,7 @@ set encoding=utf-8
 " Customise a few colours
 set cursorline
 set background=dark
-colorscheme darkside
+colorscheme wombat256i
 autocmd ColorScheme * hi LineNr      ctermfg=255 ctermbg=236
 autocmd ColorScheme * hi CursorLine  ctermbg=234 cterm=NONE
 autocmd ColorScheme * hi ColorColumn ctermbg=238
