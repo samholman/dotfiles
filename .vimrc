@@ -1,15 +1,19 @@
-" Pathogen
+" Pathogen setup
 execute pathogen#infect()
 call pathogen#helptags()
 
 " Nerdtree
 autocmd StdinReadPre * let s:std_in=1
+" Open automatically if Vim started with no files
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+" Open with Ctrl+N
 map <C-n> :NERDTreeToggle<CR>
 
 " Compatibility
 set nocompatible
 set encoding=utf-8
+" Use 256 colours plx
+set t_Co=256
 
 " Customise a few colours
 set cursorline
@@ -26,8 +30,6 @@ endif
 
 " Syntax highlighting
 syntax on
-" Use 256 colours plx
-set t_Co=256
 " Detect filetypes and use correct indenting
 filetype plugin indent on
 " Autocompletion
