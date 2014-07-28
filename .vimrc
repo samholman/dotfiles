@@ -52,6 +52,7 @@ set laststatus=2
 
 " Non-default filetypes
 au BufRead,BufNewFile *.md set filetype=markdown
+au BufRead,BufNewFile *.tache set filetype=html
 " ... These for Cygwin (if having to use Windows)
 au BufRead,BufNewFile *.phtml set filetype=html
 au BufRead,BufNewFile *.php set filetype=php
