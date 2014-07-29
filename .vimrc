@@ -91,6 +91,15 @@ set backspace=indent,eol,start
 " Jump out of insert mode with jj (which isn't ordinarily typed)
 inoremap jj <esc>
 
+" Don't care if I typo when saving/quitting!
+:command WQ wq
+:command Wq wq
+:command W w
+:command Q q
+
+" Leader-w switches windows
+nnoremap <leader>w <C-w>w
+
 " Write current session with F2
 map <F2> :mksession! ~/.vim_session <cr>
 " Load previous session with F3
