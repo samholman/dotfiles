@@ -2,6 +2,9 @@
 execute pathogen#infect()
 call pathogen#helptags()
 
+" Airline
+let g:airline#extensions#tabline#enabled = 1
+
 " Nerdtree
 autocmd StdinReadPre * let s:std_in=1
 " Open automatically if Vim started with no files
