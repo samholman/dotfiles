@@ -2,7 +2,7 @@
 execute pathogen#infect()
 call pathogen#helptags()
 
-" Airline
+" Airline tabline
 let g:airline#extensions#tabline#enabled = 1
 
 " Nerdtree
@@ -101,6 +101,10 @@ set backspace=indent,eol,start
 
 " Jump out of insert mode with jj (which isn't ordinarily typed)
 inoremap jj <esc>
+
+" Cycle buffers with gb and gB
+map gb :bn<cr>
+map gB :bp<cr>
 
 " Don't care if I typo when saving/quitting!
 :command WQ wq
