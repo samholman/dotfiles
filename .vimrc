@@ -9,6 +9,11 @@ autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 " Open with Ctrl+N
 map <C-n> :NERDTreeToggle<CR>
 
+" Ultisnips triggers
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<tab>"
+let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
+
 " Compatibility
 set nocompatible
 set encoding=utf-8
