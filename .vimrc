@@ -22,6 +22,7 @@ vmap <Enter> <Plug>(EasyAlign)
 
 " Compatibility
 set nocompatible
+set backspace=2
 set encoding=utf-8
 " Use 256 colours plx
 set t_Co=256
