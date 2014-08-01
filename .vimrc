@@ -113,6 +113,9 @@ map gB :bp<cr>
 :command W w
 :command Q q
 
+" Allow saving of files with sudo after not starting vim with it
+cmap w!! w !sudo tee > /dev/null %
+
 " Leader-w switches windows
 nnoremap <leader>w <C-w>w
 
