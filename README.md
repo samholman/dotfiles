@@ -1,9 +1,7 @@
 # Sam's dotfiles
-
-Configs for Vim, Tmux and Git.
+Configs for Bash, Vim, Tmux, and Git.
 
 ## To set up:
-
 ```bash
 git clone https://github.com/samholman/dotfiles.git
 cd dotfiles

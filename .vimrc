@@ -31,9 +31,9 @@ set t_Co=256
 set cursorline
 set background=dark
 colorscheme wombat256i
-autocmd ColorScheme * hi LineNr      ctermbg=236 ctermfg=255
+autocmd ColorScheme * hi LineNr      ctermbg=235 ctermfg=255
 autocmd ColorScheme * hi CursorLine  ctermbg=234 cterm=NONE
-autocmd ColorScheme * hi ColorColumn ctermbg=236
+autocmd ColorScheme * hi ColorColumn ctermbg=235
 
 " Highlight the 121st column (best-practice max line length)
 if exists("+colorcolumn")
