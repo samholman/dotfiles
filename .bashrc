@@ -1,2 +1,2 @@
 export EDITOR='vim'
-source ~/dotfiles/tmuxinator.bash
+source ~/dev_environment/dotfiles/tmuxinator.bash
