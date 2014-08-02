@@ -20,4 +20,4 @@
     filename = magenta
     linenumber = green
 [core]
-	editor = /usr/bin/vim
+    editor = /usr/bin/vim
