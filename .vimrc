@@ -100,6 +100,10 @@ set sidescroll=1
 " Backspace over line endings
 set backspace=indent,eol,start
 
+" Re-select after changing indentation in visual mode
+vmap > >gv
+vmap < <gv
+
 " Jump out of insert mode with jj (which isn't ordinarily typed)
 inoremap jj <esc>
 
@@ -108,10 +112,12 @@ map gb :bn<cr>
 map gB :bp<cr>
 
 " Don't care if I typo when saving/quitting!
-:command WQ wq
-:command Wq wq
 :command W w
 :command Q q
+:command WQ wq
+:command Wq wq
+:command Wa wa
+:command Qa qa
 
 " Allow saving of files with sudo after not starting vim with it
 cmap w!! w !sudo tee > /dev/null %
