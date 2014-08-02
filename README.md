@@ -1,6 +1,8 @@
-# Development dotfiles
+# Sam's dotfiles
 
-To set up:
+Configs for Vim, Tmux and Git.
+
+## To set up:
 
 ```bash
 git clone https://github.com/samholman/dotfiles.git
