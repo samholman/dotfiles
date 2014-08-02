@@ -2,7 +2,7 @@
     default = current
 [user]
     name = Sam Holman
-    email =
+    email = sam.holman@bskyb.com
 [tig]
     commit-order = topo
 [diff]
@@ -19,6 +19,5 @@
     match = red bold
     filename = magenta
     linenumber = green
-
 [core]
 	editor = /usr/bin/vim
