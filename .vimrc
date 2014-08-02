@@ -119,8 +119,8 @@ map gB :bp<cr>
 :command Wa wa
 :command Qa qa
 
-" Allow saving of files with sudo after not starting vim with it
-cmap w!! w !sudo tee > /dev/null %
+" Allow saving files with sudo
+command Sw :execute ':silent w !sudo tee % > /dev/null' | :edit!
 
 " Leader-w switches windows
 nnoremap <leader>w <C-w>w
