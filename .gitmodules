@@ -19,6 +19,9 @@
 [submodule ".vim/bundle/vim-easy-align"]
 	path = .vim/bundle/vim-easy-align
 	url = https://github.com/junegunn/vim-easy-align.git
+[submodule ".vim/bundle/vimux"]
+	path = .vim/bundle/vimux
+	url = https://github.com/benmills/vimux.git
 [submodule ".vim/bundle/vim-wombat256i"]
 	path = .vim/bundle/vim-wombat256i
 	url = https://github.com/dsolstad/vim-wombat256i.git

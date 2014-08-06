@@ -125,6 +125,9 @@ command Sw :execute ':silent w !sudo tee % > /dev/null' | :edit!
 " Leader-w switches windows
 nnoremap <leader>w <C-w>w
 
+" Run the current file with PHPUnit
+map <leader>p :call VimuxRunCommand("clear; vendor/bin/phpunit " . bufname("%"))<cr>
+
 " Write current session with F2
 map <F2> :mksession! ~/.vim_session <cr>
 " Load previous session with F3
