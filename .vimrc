@@ -126,7 +126,7 @@ command Sw :execute ':silent w !sudo tee % > /dev/null' | :edit!
 nnoremap <leader>w <C-w>w
 
 " Run the current file with PHPUnit
-map <leader>p :call VimuxRunCommand("clear; vendor/bin/phpunit " . bufname("%"))<cr>
+map <leader>p :call VimuxRunCommand("clear; phpunit " . bufname("%"))<cr>
 
 " Write current session with F2
 map <F2> :mksession! ~/.vim_session <cr>
