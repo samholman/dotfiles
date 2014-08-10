@@ -1,23 +1,22 @@
+[core]
+    editor       = /usr/bin/vim
 [push]
-    default = current
-[user]
-    name = Sam Holman
-    email = sam.holman@bskyb.com
+    default      = current
+[diff]
+    tool         = vimdiff
+[merge]
+    tool         = vimdiff
+[difftool]
+    prompt       = false
+[grep]
+    lineNumber   = true
+[color]
+    ui           = auto
+[color "grep"]
+    match        = red bold
+    filename     = magenta
+    linenumber   = green
 [tig]
     commit-order = topo
-[diff]
-    tool = vimdiff
-[merge]
-    tool = vimdiff
-[difftool]
-    prompt = false
-[grep]
-    lineNumber = true
-[color]
-    ui = auto
-[color "grep"]
-    match = red bold
-    filename = magenta
-    linenumber = green
-[core]
-    editor = /usr/bin/vim
+[include]
+    path         = .gitconfig.extra
