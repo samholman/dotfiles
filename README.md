@@ -1,5 +1,5 @@
 # Sam's dotfiles
-Configs for Bash, Vim, Tmux, and Git, resulting in a rather wonderful development environment.
+Configs for Bash, Vim, Tmux, and Git. Makes for a wonderful development environment.
 
 ![Screenshot of dev environment](https://samholman.com/files/dev-environment.png)
 
@@ -31,7 +31,7 @@ You will (fairly obviously) need to install at least some of the following:
 Create a tmux profile by copying and modifying one of the files in `.tmuxinator/`.
 You can then start said profile by running `tmuxinator start <profile>`.
 
-The *tmux* prefix key is set to Ctrl+\. After pressing this:
+The *tmux* prefix key is set to `Ctrl+\`. After pressing this:
 
 * % creates a new vertical split
 * " creates a horizontal split
@@ -47,7 +47,7 @@ The *tmux* prefix key is set to Ctrl+\. After pressing this:
 * Ctrl+P for fuzzy filename searching
 * Syntastic for syntax checking (on save)
 * Ultisnips for code auto-completion (tab to activate)
-* Easy align to aid in aligning multi-line assignments, etc (highlight some lines in Visual mode, press Enter, then a character to align by - such as equals or colon).
+* Easy align to aid in aligning multi-line assignments, etc (highlight some lines in Visual mode, press Enter, then a character to align by - such as equals or colon)
 
 ## Feedback
 
