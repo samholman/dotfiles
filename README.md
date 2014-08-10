@@ -11,3 +11,10 @@ git submodule update --init --recursive
 ./setup.sh
 ```
 
+Your Git user details can be added to `~/.gitconfig.extra`:
+```
+[user]
+    name = Your Name
+    email = you@yourdomain.com
+```
+
