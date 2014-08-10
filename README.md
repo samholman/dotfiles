@@ -1,7 +1,7 @@
 # Sam's dotfiles
 Configs for Bash, Vim, Tmux, and Git. Makes for a wonderful development environment.
 
-![Screenshot of dev environment](https://samholman.com/files/dev-environment.png)
+![Screenshot of dev environment](https://samholman.com/files/tmux-vim.jpg)
 
 ## To set up:
 ```bash
