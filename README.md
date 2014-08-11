@@ -35,9 +35,9 @@ The *tmux* prefix key is set to `Ctrl+\`. After pressing this:
 
 * % creates a new vertical split
 * " creates a horizontal split
-* z zooms into the current pane
+* z zooms into the current pane (making it full screen)
 * c creates a new "tab"
-* <num> jumps to the numbered tab
+* \<num\> jumps to the numbered tab
 * Ctrl+\ twice jumps between splits
 
 *Vim* is set up with a few sane defaults for development (see `.vimrc`), and a few plugins are included:
