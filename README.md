@@ -1,5 +1,5 @@
 # Sam's dotfiles
-Configs for Bash, Vim, Tmux, and Git. Makes for a wonderful development environment.
+Configs for Bash, Vim, Tmux, and Git. Makes for an awesome, programmable development environment.
 
 ![Screenshot of dev environment](https://samholman.com/files/tmux-vim.jpg)
 
@@ -42,12 +42,12 @@ The *tmux* prefix key is set to `Ctrl+\`. After pressing this:
 
 *Vim* is set up with a few sane defaults for development (see `.vimrc`), and a few plugins are included:
 
-* Fugitive for Git integration
-* Ctrl+N toggles NERDtree (file browser pane)
-* Ctrl+P for fuzzy filename searching
-* Syntastic for syntax checking (on save)
-* Ultisnips for code auto-completion (tab to activate)
-* Easy align to aid in aligning multi-line assignments, etc (highlight some lines in Visual mode, press Enter, then a character to align by - such as equals or colon)
+* [Fugitive](https://github.com/tpope/vim-fugitive) for Git integration
+* Ctrl+N toggles [NERDtree](https://github.com/scrooloose/nerdtree) (file browser pane)
+* [Ctrl+P](https://github.com/kien/ctrlp.vim) for fuzzy filename searching
+* [Syntastic](https://github.com/scrooloose/syntastic) for syntax checking (on save)
+* [Ultisnips](https://github.com/SirVer/ultisnips) for code auto-completion (tab to activate)
+* [Easy align](https://github.com/junegunn/vim-easy-align) to aid in aligning multi-line assignments, etc (highlight some lines in Visual mode, press Enter, then a character to align by - such as equals or colon)
 
 ## Feedback
 
