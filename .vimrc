@@ -10,7 +10,7 @@ autocmd StdinReadPre * let s:std_in=1
 " Open automatically if Vim started with no files
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 " Open with Ctrl+N
-map <C-n> :NERDTreeToggle<CR>
+map <C-n> :NERDTreeToggle<cr>
 
 " Ultisnips triggers
 let g:UltiSnipsExpandTrigger="<tab>"
@@ -125,8 +125,27 @@ command Sw :execute ':silent w !sudo tee % > /dev/null' | :edit!
 " Leader-w switches windows
 nnoremap <leader>w <C-w>w
 
-" Run the current file with PHPUnit
-map <leader>p :call VimuxRunCommand("clear; phpunit " . bufname("%"))<cr>
+" Leader-r reloads vimrc
+nnoremap <leader>r :so $MYVIMRC<cr>
+
+" Leader-t runs the current file through a test runner via tmux (if appropriate)
+function! RunTestFile()
+    let l:filename = bufname("%")
+    let l:filetype = &ft
+
+    if (filetype == "php")
+        let l:runner = "phpunit"
+    elseif (filetype == "javascript")
+        let l:runner = "mocha"
+    endif
+
+    if (exists("runner"))
+        call VimuxRunCommand("clear; " . runner . " " . filename)
+    else
+        echo "No test runner for files of type: " . filetype
+    endif
+endfunction
+nnoremap <leader>t :call RunTestFile()<cr>
 
 " Write current session with F2
 map <F2> :mksession! ~/.vim_session <cr>
@@ -151,7 +170,7 @@ endfunction
 autocmd BufWritePre * :call TrimWhiteSpace()
 
 " Show syntax highlighting groups for word under cursor
-nmap <C-S-H> :call <SID>SynStack()<CR>
+nmap <C-S-H> :call <SID>SynStack()<cr>
 function! <SID>SynStack()
     if !exists("*synstack")
         return
