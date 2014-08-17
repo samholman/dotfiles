@@ -25,6 +25,9 @@
 [submodule ".vim/bundle/vimux"]
 	path = .vim/bundle/vimux
 	url = https://github.com/benmills/vimux.git
+[submodule ".vim/bundle/ag.vim"]
+	path = .vim/bundle/ag.vim
+	url = https://github.com/rking/ag.vim.git
 [submodule ".vim/bundle/vim-wombat256i"]
 	path = .vim/bundle/vim-wombat256i
 	url = https://github.com/dsolstad/vim-wombat256i.git

@@ -26,6 +26,7 @@ You will (fairly obviously) need to install at least some of the following:
 * [Tmuxinator](https://github.com/tmuxinator/tmuxinator)
 * [Git](http://git-scm.com)
 * [Tig](https://github.com/jonas/tig)
+* [Ag (The Silver Searcher)](https://github.com/ggreer/the_silver_searcher)
 
 ## Basic usage
 Create a tmux profile by copying and modifying one of the files in `.tmuxinator/`.
