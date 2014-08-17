@@ -36,6 +36,9 @@ autocmd ColorScheme * hi LineNr      ctermbg=235 ctermfg=248
 autocmd ColorScheme * hi CursorLine  ctermbg=234 cterm=NONE
 autocmd ColorScheme * hi ColorColumn ctermbg=235
 
+" Disable the default mode indicator (mode in statusline)
+set noshowmode
+
 " Highlight the 121st column (best-practice max line length)
 if exists("+colorcolumn")
     set colorcolumn=121
