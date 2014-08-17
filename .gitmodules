@@ -34,3 +34,6 @@
 [submodule ".vim/bundle/vim-darkmate"]
 	path = .vim/bundle/vim-darkmate
 	url = https://github.com/samholman/Vim-Darkmate.git
+[submodule ".oh-my-zsh"]
+	path = .oh-my-zsh
+	url = git://github.com/robbyrussell/oh-my-zsh.git

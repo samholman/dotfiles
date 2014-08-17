@@ -9,6 +9,8 @@ declare -a FILES=(
     '.tmuxinator'
     '.vimrc'
     '.vim'
+    '.zshrc'
+    '.oh-my-zsh'
 )
 
 function setup() {
