@@ -125,8 +125,8 @@ map gB :bp<cr>
 " Allow saving files with sudo
 command Sw :execute ':silent w !sudo tee % > /dev/null' | :edit!
 
-" Leader-w switches windows
-nnoremap <leader>w <C-w>w
+" Leader-\ switches windows
+nnoremap <leader>\ <C-w>w
 
 " Leader-r reloads vimrc
 nnoremap <leader>r :so $MYVIMRC<cr>
