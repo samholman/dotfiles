@@ -4,7 +4,6 @@ call pathogen#helptags()
 
 " Airline tabline
 let g:airline#extensions#tabline#enabled = 1
-let g:airline_powerline_fonts = 1
 
 " Nerdtree
 autocmd StdinReadPre * let s:std_in=1
