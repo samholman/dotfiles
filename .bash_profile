@@ -20,3 +20,7 @@ _tmuxinator() {
 }
 
 complete -F _tmuxinator tmuxinator mux
+
+if [ -f ~/.aliases ]; then
+    . ~/.aliases
+fi

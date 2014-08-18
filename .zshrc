@@ -14,3 +14,5 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 export MANPATH="/usr/local/man:$MANPATH"
 export LANG=en_GB.UTF-8
 export EDITOR='vim'
+
+source $HOME/.aliases

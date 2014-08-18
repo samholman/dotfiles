@@ -2,15 +2,16 @@
 
 # These files will be linked into ~
 declare -a FILES=(
+    '.aliases'
     '.bash_profile'
     '.bashrc'
+    '.zshrc'
+    '.oh-my-zsh'
     '.gitconfig'
     '.tmux.conf'
     '.tmuxinator'
     '.vimrc'
     '.vim'
-    '.zshrc'
-    '.oh-my-zsh'
 )
 
 function setup() {
