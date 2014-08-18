@@ -5,6 +5,7 @@ DISABLE_AUTO_UPDATE="true"
 ENABLE_CORRECTION="true"
 COMPLETION_WAITING_DOTS="true"
 HIST_STAMPS="yyyy-mm-dd"
+DISABLE_AUTO_TITLE=true
 
 plugins=(git tmux tmuxinator vagrant phing)
 
