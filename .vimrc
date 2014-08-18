@@ -20,6 +20,9 @@ let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
 " Start interactive EasyAlign in visual mode (e.g. vip<Enter>)
 vmap <Enter> <Plug>(EasyAlign)
 
+" Alias Ag to Ag! so it doesn't auto-open the first match
+ca Ag Ag!
+
 " Compatibility
 set nocompatible
 set backspace=2
