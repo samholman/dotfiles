@@ -1,5 +1,5 @@
 # Sam's dotfiles
-Configs for Bash, Vim, Tmux, and Git. Makes for an awesome, programmable development environment.
+Configs for Bash, Zsh, Vim, Tmux, and Git. Makes for an awesome, programmable development environment.
 
 ![Screenshot of dev environment](https://samholman.com/files/tmux-vim.jpg)
 
