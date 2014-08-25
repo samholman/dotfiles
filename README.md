@@ -27,6 +27,8 @@ You will (fairly obviously) need to install at least some of the following:
 * [Git](http://git-scm.com)
 * [Tig](https://github.com/jonas/tig)
 * [Ag (The Silver Searcher)](https://github.com/ggreer/the_silver_searcher)
+* [Exuberant Ctags](http://ctags.sourceforge.net)
+* [JSHint](https://github.com/jshint/jshint/)
 
 ## Basic usage
 Create a tmux profile by copying and modifying one of the files in `.tmuxinator/`.

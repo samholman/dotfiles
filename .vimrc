@@ -12,6 +12,9 @@ autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 " Open with Ctrl+N
 map <C-n> :NERDTreeToggle<cr>
 
+" Open tagbar with Ctrl+C
+map <C-c> :TagbarToggle<cr>
+
 " Ultisnips triggers
 let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsJumpForwardTrigger="<tab>"
