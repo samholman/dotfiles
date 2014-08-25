@@ -47,6 +47,7 @@ The *tmux* prefix key is set to `Ctrl+\`. After pressing this:
 
 * [Fugitive](https://github.com/tpope/vim-fugitive) for Git integration
 * Ctrl+N toggles [NERDtree](https://github.com/scrooloose/nerdtree) (file browser pane)
+* Ctrl+C toggles [Tagbar](https://github.com/majutsushi/tagbar) (uses Ctags)
 * [Ctrl+P](https://github.com/kien/ctrlp.vim) for fuzzy filename searching
 * [Syntastic](https://github.com/scrooloose/syntastic) for syntax checking (on save)
 * [Ultisnips](https://github.com/SirVer/ultisnips) for code auto-completion (tab to activate)
