@@ -5,6 +5,11 @@ call pathogen#helptags()
 " Airline tabline
 let g:airline#extensions#tabline#enabled = 1
 
+" CtrlP
+if executable('ag')
+    let g:ctrlp_user_command = 'ag %s -l --nocolor --hidden -g ""'
+endif
+
 " Nerdtree
 autocmd StdinReadPre * let s:std_in=1
 " Open automatically if Vim started with no files
