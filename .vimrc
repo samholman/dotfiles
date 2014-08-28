@@ -131,6 +131,9 @@ map gB :bp<cr>
 " Allow saving files with sudo
 command Sw :execute ':silent w !sudo tee % > /dev/null' | :edit!
 
+" Leader-s runs an Ag search for the word under cursor
+nnoremap <leader>s :Ag! <c-r>=expand('<cword>')<cr><cr>
+
 " Leader-\ switches windows
 nnoremap <leader>\ <C-w>w
 

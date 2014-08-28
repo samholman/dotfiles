@@ -53,6 +53,12 @@ The *tmux* prefix key is set to `Ctrl+\`. After pressing this:
 * [Ultisnips](https://github.com/SirVer/ultisnips) for code auto-completion (tab to activate)
 * [Easy align](https://github.com/junegunn/vim-easy-align) to aid in aligning multi-line assignments, etc (highlight some lines in Visual mode, press Enter, then a character to align by - such as equals or colon)
 
+## Extra Vim shortcuts
+
+The key combo `\t` runs the current PHP or JS test file through an appropriate test runner (PHPUnit/Mocha), in a separate Tmux pane.
+`\s` runs a recursive search (using `ag`) for the word under your cursor and lists results in the quickfix panel.
+`\\` jumps between split panes.
+
 ## Feedback
 
 Suggestions and improvements welcome via [Github issues](https://github.com/samholman/dotfiles/issues) or [Twitter](https://twitter.com/samh).

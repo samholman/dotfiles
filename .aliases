@@ -1,1 +1,1 @@
-alias vimdirty='vi -p `git status --porcelain | cut -c4-`'
+alias vimdirty='vim -p `git status --porcelain | cut -c4-`'
