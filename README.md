@@ -55,9 +55,9 @@ The *tmux* prefix key is set to `Ctrl+\`. After pressing this:
 
 ## Extra Vim shortcuts
 
-The key combo `\t` runs the current PHP or JS test file through an appropriate test runner (PHPUnit/Mocha), in a separate Tmux pane.
-`\s` runs a recursive search (using `ag`) for the word under your cursor and lists results in the quickfix panel.
-`\\` jumps between split panes.
+* The key combo `\t` runs the current PHP or JS test file through an appropriate test runner (PHPUnit/Mocha), in a separate Tmux pane.
+* `\s` runs a recursive search (using `ag`) for the word under your cursor and lists results in the quickfix panel.
+* `\\` jumps between split panes.
 
 ## Feedback
 
