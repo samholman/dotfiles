@@ -20,3 +20,5 @@
     commit-order = topo
 [include]
     path         = .gitconfig.extra
+[rerere]
+    enabled      = true
