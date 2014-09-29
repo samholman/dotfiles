@@ -11,7 +11,7 @@ plugins=(git tmux tmuxinator vagrant phing)
 
 source $ZSH/oh-my-zsh.sh
 
-export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/bin:/usr/local/bin:/usr/local/opt/qt5/bin:$PATH
 export MANPATH="/usr/local/man:$MANPATH"
 export LANG=en_GB.UTF-8
 export EDITOR='vim'
