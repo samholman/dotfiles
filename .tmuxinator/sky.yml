@@ -6,14 +6,35 @@ root: ~/code/chef-solo
 pre: vagrant up
 
 windows:
-  - editor:
-      layout: main-vertical
+  - poker:
+      layout: 8c10,238x73,0,0{60x73,0,0,0,177x73,61,0,1}
       panes:
         - VM:
           - vagrant ssh
-          - cd /var/lamp/code
+          - cd /var/lamp/code/poker
           - clear
         - Editor:
-          - cd ../
+          - cd ../vmpokercode
           - vim
-
+  - casino:
+      layout: 8c10,238x73,0,0{60x73,0,0,0,177x73,61,0,1}
+      panes:
+        - VM:
+          - vagrant ssh
+          - cd /var/lamp/code/casino
+          - clear
+        - Editor:
+          - cd ../vmcasinocode
+          - vim
+  - skybetdev:
+      layout: 8c10,238x73,0,0{60x73,0,0,0,177x73,61,0,1}
+      panes:
+        - VM:
+          - vagrant ssh
+          - cd /var/lamp/code/lamp
+          - clear
+        - Editor:
+          - cd ../vmcode
+          - vim
+  - IRC:
+      - weechat
