@@ -63,3 +63,11 @@ The *tmux* prefix key is set to `Ctrl+\`. After pressing this:
 
 Suggestions and improvements welcome via [Github issues](https://github.com/samholman/dotfiles/issues) or [Twitter](https://twitter.com/samh).
 
+## Troubleshooting
+
+* **The colours look weird!**
+  Make sure your term is set to use 256 colours. Usually `xterm-256color`.
+
+* **So many words highlighted in Vim?**
+  That's probably the spelling/grammar checker which is on by default and set to en-GB. Use `[s` and `]s` to jump between spelling errors and use `z=` to see suggestions.
+  You can turn it off with `:set spell!`, or edit your `.vimrc` to turn it off by default.
