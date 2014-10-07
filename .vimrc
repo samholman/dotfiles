@@ -88,7 +88,7 @@ set fileformat=unix
 set fileformats=unix,dos
 
 " English (British) spelling please
-set spell spelllang=en_gb
+set spelllang=en_gb
 
 " Show line numbers
 set number
