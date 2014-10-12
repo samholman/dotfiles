@@ -69,5 +69,5 @@ Suggestions and improvements welcome via [Github issues](https://github.com/samh
   Make sure your term is set to use 256 colours. Usually `xterm-256color`.
 
 * **So many words highlighted in Vim?**
-  That's probably the spelling/grammar checker which is on by default and set to en-GB. Use `[s` and `]s` to jump between spelling errors and use `z=` to see suggestions.
-  You can turn it off with `:set spell!`, or edit your `.vimrc` to turn it off by default.
+  That's probably the spelling/grammar checker which is set to en-GB by default. Use `[s` and `]s` to jump between spelling errors and use `z=` to see suggestions.
+  You can toggle it on and off with `:set spell!`.
