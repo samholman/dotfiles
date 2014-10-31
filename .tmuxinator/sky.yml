@@ -48,7 +48,9 @@ windows:
           - vim
   - platformevo:
       - cd ../platformevo
+      - clear
   - zxtm:
       - cd ../zxtm
+      - clear
   - IRC:
       - weechat
