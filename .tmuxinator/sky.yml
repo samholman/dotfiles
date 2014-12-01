@@ -26,15 +26,25 @@ windows:
         - Editor:
           - cd ../vmcasinocode
           - vim
-  - casinoadmin:
+  - casinoapi:
       layout: 8c10,238x73,0,0{60x73,0,0,0,177x73,61,0,1}
       panes:
         - VM:
           - vagrant ssh
-          - cd /var/lamp/code/casinoadmin
+          - cd /var/lamp/code/casinoapi
           - clear
         - Editor:
-          - cd ../vmcasinoadmincode
+          - cd ../vmcasinoapicode
+          - vim
+  - gamingadmin:
+      layout: 8c10,238x73,0,0{60x73,0,0,0,177x73,61,0,1}
+      panes:
+        - VM:
+          - vagrant ssh
+          - cd /var/lamp/code/gamingadmin
+          - clear
+        - Editor:
+          - cd ../vmgamingadmincode
           - vim
   - skybetdev:
       layout: 8c10,238x73,0,0{60x73,0,0,0,177x73,61,0,1}
