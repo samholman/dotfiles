@@ -1,4 +1,4 @@
-export PATH="$HOME/bin:/usr/local/bin:/usr/local/opt/qt5/bin:$PATH";
+export PATH="$HOME/bin:/usr/local/sbin:/usr/local/bin:/usr/local/opt/qt5/bin:$PATH";
 export EDITOR='vim';
 
 _tmuxinator() {
