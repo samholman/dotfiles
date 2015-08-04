@@ -83,6 +83,21 @@ au BufRead,BufNewFile *.tache set filetype=html
 au BufRead,BufNewFile *.phtml set filetype=html
 au BufRead,BufNewFile *.php set filetype=php
 
+" Set the codesniffer args
+let g:phpqa_codesniffer_args = "--standard=psr2"
+" Run codesniffer on save
+let g:phpqa_codesniffer_autorun = 1
+" Don't run messdetector on save (default = 1)
+let g:phpqa_messdetector_autorun = 0
+
+" PHP CS Fixer configs
+let g:php_cs_fixer_level = "psr2"
+
+" Leader-cs displays PHP codesniffer warnings
+nnoremap <silent><leader>cs :Phpcs<cr>
+" Leader-cf fixes PHP codesniffer problems in the current file
+nnoremap <silent><leader>cf :call PhpCsFixerFixFile()<CR>
+
 " Default to unix formats/line endings
 set fileformat=unix
 set fileformats=unix,dos
