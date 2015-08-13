@@ -28,7 +28,9 @@ You will (fairly obviously) need to install at least some of the following:
 * [Tig](https://github.com/jonas/tig)
 * [Ag (The Silver Searcher)](https://github.com/ggreer/the_silver_searcher)
 * [Exuberant Ctags](http://ctags.sourceforge.net)
-* [JSHint](https://github.com/jshint/jshint/)
+* [ESLint](http://eslint.org/docs/user-guide/getting-started)
+* [ESLint React Plugin](https://www.npmjs.com/package/eslint-plugin-react)
+* [Babel ESLint](https://github.com/babel/babel-eslint)
 * [PHP Codesniffer](https://github.com/squizlabs/PHP_CodeSniffer)
 * [PHP CS Fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer)
 
@@ -59,8 +61,7 @@ The *tmux* prefix key is set to `Ctrl+\`. After pressing this:
 
 * The key combo `\t` runs the current PHP or JS test file through an appropriate test runner (PHPUnit/Mocha), in a separate Tmux pane.
 * `\s` runs a recursive search (using `ag`) for the word under your cursor and lists results in the quickfix panel.
-* `\cs` will display PHP codesniffer warnings.
-* `\cf` will fix PHP codesniffer problems.
+* `\cs` will fix PHP codesniffer problems.
 * `\\` jumps between split panes.
 
 ## Feedback

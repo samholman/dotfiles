@@ -61,6 +61,10 @@ filetype plugin indent on
 " Autocompletion
 set omnifunc=syntaxcomplete#Complete
 
+" Syntastic checkers
+let g:syntastic_php_checkers = ['php', 'phpcs']
+let g:syntastic_javascript_checkers = ['eslint']
+
 " Highlight search matches whilst typing
 set incsearch
 " Ignore casing...
@@ -93,10 +97,8 @@ let g:phpqa_messdetector_autorun = 0
 " PHP CS Fixer configs
 let g:php_cs_fixer_level = "psr2"
 
-" Leader-cs displays PHP codesniffer warnings
-nnoremap <silent><leader>cs :Phpcs<cr>
-" Leader-cf fixes PHP codesniffer problems in the current file
-nnoremap <silent><leader>cf :call PhpCsFixerFixFile()<CR>
+" Leader-cs fixes PHP codesniffer problems in the current file
+nnoremap <silent><leader>cs :call PhpCsFixerFixFile()<CR>
 
 " Default to unix formats/line endings
 set fileformat=unix
