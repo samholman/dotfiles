@@ -5,6 +5,9 @@ call pathogen#helptags()
 " Airline tabline
 let g:airline#extensions#tabline#enabled = 1
 
+" Powerline fonts
+let g:airline_powerline_fonts = 1
+
 " CtrlP
 if executable('ag')
     let g:ctrlp_user_command = 'ag %s -l --nocolor --hidden -g ""'
