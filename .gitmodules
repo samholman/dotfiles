@@ -43,6 +43,7 @@
 [submodule ".vim/bundle/vim-php-cs-fixer"]
 	path = .vim/bundle/vim-php-cs-fixer
 	url = https://github.com/stephpy/vim-php-cs-fixer.git
+    ignore = dirty
 [submodule ".vim/bundle/vim-zephir"]
 	path = .vim/bundle/vim-zephir
 	url = https://github.com/xwsoul/vim-zephir
