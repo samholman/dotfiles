@@ -6,16 +6,6 @@ root: ~/code/chef-solo
 pre: vagrant up
 
 windows:
-  - poker:
-      layout: 8c10,238x73,0,0{60x73,0,0,0,177x73,61,0,1}
-      panes:
-        - VM:
-          - vagrant ssh
-          - cd /var/lamp/code/poker
-          - clear
-        - Editor:
-          - cd ../vmpokercode
-          - vim
   - casino:
       layout: 8c10,238x73,0,0{60x73,0,0,0,177x73,61,0,1}
       panes:
@@ -46,6 +36,36 @@ windows:
         - Editor:
           - cd ../vmgamingadmincode
           - vim
+  - poker:
+      layout: 8c10,238x73,0,0{60x73,0,0,0,177x73,61,0,1}
+      panes:
+        - VM:
+          - vagrant ssh
+          - cd /var/lamp/code/poker
+          - clear
+        - Editor:
+          - cd ../vmpokercode
+          - vim
+  - bingo:
+      layout: 8c10,238x73,0,0{60x73,0,0,0,177x73,61,0,1}
+      panes:
+        - VM:
+          - vagrant ssh
+          - cd /var/lamp/code/bingoportal
+          - clear
+        - Editor:
+          - cd ../vmbingoportalcode
+          - vim
+  - vegas:
+      layout: 8c10,238x73,0,0{60x73,0,0,0,177x73,61,0,1}
+      panes:
+        - VM:
+          - vagrant ssh
+          - cd /var/lamp/code/onevegas
+          - clear
+        - Editor:
+          - cd ../vmonevegascode
+          - vim
   - skybetdev:
       layout: 8c10,238x73,0,0{60x73,0,0,0,177x73,61,0,1}
       panes:
@@ -56,8 +76,8 @@ windows:
         - Editor:
           - cd ../vmcode
           - vim
-  - platformevo:
-      - cd ../platformevo
+  - workstation:
+      - cd ../workstation
       - clear
   - zxtm:
       - cd ../zxtm
