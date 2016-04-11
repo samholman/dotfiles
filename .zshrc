@@ -16,4 +16,7 @@ export MANPATH="/usr/local/man:$MANPATH"
 export LANG=en_GB.UTF-8
 export EDITOR='vim'
 
+setopt auto_cd
+cdpath=$HOME/code
+
 source $HOME/.aliases
