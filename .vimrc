@@ -164,6 +164,19 @@ nnoremap <leader>s :Ag! <c-r>=expand('<cword>')<cr><cr>
 " Leader-\ switches windows
 nnoremap <leader>\ <C-w>w
 
+" Leader-z zooms in or out of current split
+let s:zoomed=0
+function! ToggleZoom()
+    if (s:zoomed==1)
+        :tabclose
+        let s:zoomed=0
+    else
+        :tab split
+        let s:zoomed=1
+    endif
+endfunction
+nnoremap <leader>z :call ToggleZoom()<cr>
+
 " Leader-r reloads vimrc
 nnoremap <leader>r :so $MYVIMRC<cr>
 
