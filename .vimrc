@@ -199,6 +199,17 @@ function! RunTestFile()
 endfunction
 nnoremap <leader>t :call RunTestFile()<cr>
 
+" Reformat minified JS
+function! UnMinify()
+    %s/{\ze[^\r\n]/{\r/g
+    %s/){/) {/g
+    %s/};\?\ze[^\r\n]/\0\r/g
+    %s/;\ze[^\r\n]/;\r/g
+    %s/[^\s]\zs[=&|]\+\ze[^\s]/ \0 /g
+    normal ggVG=
+endfunction
+command! UnMinify call UnMinify()
+
 " Write current session with F2
 map <F2> :mksession! ~/.vim_session <cr>
 " Load previous session with F3
