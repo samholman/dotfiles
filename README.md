@@ -63,6 +63,7 @@ The *tmux* prefix key is set to `Ctrl+\`. After pressing this:
 * `\s` runs a recursive search (using `ag`) for the word under your cursor and lists results in the quickfix panel.
 * `\cs` will fix PHP codesniffer problems.
 * `\\` jumps between split panes.
+* `\z` toggles "zoom" on the current pane (a bit like tmux).
 
 ## Feedback
 
