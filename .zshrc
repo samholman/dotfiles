@@ -21,3 +21,5 @@ setopt auto_cd
 cdpath=$HOME/code
 
 source $HOME/.aliases
+
+alias pscli='nocorrect pscli'
