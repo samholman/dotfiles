@@ -56,3 +56,6 @@
 [submodule ".oh-my-zsh"]
 	path = .oh-my-zsh
 	url = https://github.com/robbyrussell/oh-my-zsh.git
+[submodule ".vim/bundle/vim-graphql"]
+	path = .vim/bundle/vim-graphql
+	url = https://github.com/jparise/vim-graphql.git
