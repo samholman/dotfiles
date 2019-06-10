@@ -12,7 +12,7 @@ plugins=(git tmux tmuxinator vagrant phing)
 source $ZSH/oh-my-zsh.sh
 
 export GOPATH="$HOME/code/go"
-export PATH="$HOME/bin:/usr/local/sbin:/usr/local/bin:/usr/local/opt/qt5/bin:$GOPATH/bin:/usr/local/opt/go/libexec/bin:$PATH"
+export PATH="$HOME/bin:/usr/local/sbin:/usr/local/bin:/usr/local/opt/qt5/bin:$GOPATH/bin:/usr/local/opt/go/libexec/bin:/usr/local/opt/openssl/bin:$PATH"
 export MANPATH="/usr/local/man:$MANPATH"
 export LANG=en_GB.UTF-8
 export EDITOR='vim'
