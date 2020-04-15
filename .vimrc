@@ -199,6 +199,19 @@ function! RunTestFile()
 endfunction
 nnoremap <leader>t :call RunTestFile()<cr>
 
+" Leader-g executes the current file with Go (if appropriate)
+function! RunGoFile()
+    let l:filename = bufname("%")
+    let l:filetype = &ft
+
+    if (filetype == "go")
+        call VimuxRunCommand("clear; go run " . filename)
+    else
+        echo "Not a Go file"
+    endif
+endfunction
+nnoremap <leader>g :call RunGoFile()<cr>
+
 " Reformat minified JS
 function! UnMinify()
     %s/{\ze[^\r\n]/{\r/g
