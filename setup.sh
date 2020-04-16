@@ -8,6 +8,7 @@ declare -a FILES=(
     '.zshrc'
     '.oh-my-zsh'
     '.gitconfig'
+    '.gitignore_global'
     '.tigrc'
     '.tmux.conf'
     '.tmuxinator'
